@@ -129,7 +129,7 @@ Knowledge infrastructure
 
     +++
 
-    .. link-button:: index
+    .. link-button:: https://github.com/nikolasibalic/Caroline
             :type: url
             :text: Open on GitHub
             :classes: btn-block btn-secondary stretched-link
