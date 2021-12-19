@@ -23,13 +23,13 @@ Knowledge infrastructure
     .. link-button:: https://github.com/nikolasibalic/ARC-Alkali-Rydberg-Calculator
             :type: url
             :text: See on GitHub
-            :classes: btn-block btn-secondary stretched-link
+            :classes: btn-block btn-secondary
 
 
     .. link-button:: https://arc-alkali-rydberg-calculator.readthedocs.io/en/latest/
             :type: url
             :text: Documentation & examples
-            :classes: btn-block btn-secondary stretched-link
+            :classes: btn-block btn-secondary
 
 
     ---
@@ -49,7 +49,7 @@ Knowledge infrastructure
     .. link-button:: https://atomcalc.jqc.org.uk/
             :type: url
             :text: Open webapp
-            :classes: btn-block btn-secondary stretched-link
+            :classes: btn-block btn-secondary 
 
 .. panels::
     :card: + intro-card text-center
@@ -76,12 +76,12 @@ Knowledge infrastructure
     .. link-button:: https://www.researchx3d.com
             :type: url
             :text: Open webapp
-            :classes: btn-block btn-secondary stretched-link
+            :classes: btn-block btn-secondary 
 
     .. link-button:: https://www.youtube.com/watch?v=LZDBc406JmY
             :type: url
             :text: Video introduction
-            :classes: btn-block btn-secondary stretched-link
+            :classes: btn-block btn-secondary
 
     ---
     :img-top: _static/roundtable.png
@@ -104,7 +104,7 @@ Knowledge infrastructure
     .. link-button:: https://roundtable.researchx3d.com
             :type: url
             :text: Open webapp
-            :classes: btn-block btn-secondary stretched-link
+            :classes: btn-block btn-secondary 
             
 
 .. panels::
@@ -132,7 +132,7 @@ Knowledge infrastructure
     .. link-button:: https://github.com/nikolasibalic/Caroline
             :type: url
             :text: Open on GitHub
-            :classes: btn-block btn-secondary stretched-link
+            :classes: btn-block btn-secondary 
 
 
 
@@ -153,14 +153,14 @@ Knowledge infrastructure
     .. link-button:: https://nikolasibalic.github.io/Interactive-Publishing/
             :type: url
             :text: See simple example
-            :classes: btn-block btn-secondary stretched-link
+            :classes: btn-block btn-secondary
 
     .. link-button:: https://github.com/nikolasibalic/Interactive-publishing
             :type: url
             :text: Open on GitHub
-            :classes: btn-block btn-secondary stretched-link.
+            :classes: btn-block btn-secondary 
 
     .. link-button:: https://physicsworld.com/a/do-interactive-figures-help-physicists-to-communicate-their-science/
             :type: url
             :text: Physics World blogpost
-            :classes: btn-block btn-secondary stretched-link
+            :classes: btn-block btn-secondary 
