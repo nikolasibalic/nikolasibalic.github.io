@@ -1,7 +1,7 @@
 Teaching
 ========
 
-I am, or have been, engaged at teaching, course/competition creation, marking,
+I have been involved in teaching, course/competition creation, marking,
 and supervision at all levels of physics eduction (primary school -> highschool 
 -> undergraduate -> postgraduate).
 
