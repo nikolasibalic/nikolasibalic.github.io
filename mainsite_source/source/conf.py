@@ -74,6 +74,9 @@ exclude_patterns = []
 # a list of builtin themes.
 #
 html_theme = "pydata_sphinx_theme"
+html_logo = "./_static/logo.png"
+html_favicon = "./_static/ns.ico"
+
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -84,6 +87,13 @@ html_theme_options = {
     "github_url": "https://github.com/nikolasibalic",
     "use_edit_page_button": False,
     "show_toc_level": 1,
+    "icon_links": [
+        {
+            "name": "Publications",
+            "url": "https://arc-alkali-rydberg-calculator.readthedocs.io/en/latest/contribute.html",
+            "icon": "fas fa-book",
+        }
+    ]
     # "show_nav_level": 2,
     # "search_bar_position": "navbar",  # TODO: Deprecated - remove in future version
     # "navbar_align": "left",  # [left, content, right] For testing that the navbar items align properly
