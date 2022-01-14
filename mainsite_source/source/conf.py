@@ -90,7 +90,7 @@ html_theme_options = {
     "icon_links": [
         {
             "name": "Publications",
-            "url": "https://arc-alkali-rydberg-calculator.readthedocs.io/en/latest/contribute.html",
+            "url": "https://scholar.google.com/citations?user=o9TNqmkAAAAJ&hl=fr&oi=ao",
             "icon": "fas fa-book",
         }
     ]
