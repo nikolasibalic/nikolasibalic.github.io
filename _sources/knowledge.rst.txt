@@ -1,6 +1,31 @@
 Knowledge infrastructure
 ========================
 
+**Why?** Many of the important `challenges we face as humanity`_  rely on coordinated work of many experts and organizations. To be able to mobilize society-wide response to raise up to the scale of the challenge, we need to enable knowledge to be not only more easily accessible, but also more easily reused by domain non-experts. We also need more transparency into origins of expert insights, to enable progression when expert opinions differ, and to enable feedback from non-experts that might crucially expand our solution-space horizons. Existing solutions of knowledge dissemination and reuse are not fit for the scale of interdisciplinarity and coordination we have to achieve: we need a new knowledge infrastructure.
+
+.. sidebar:: Quote
+
+   "E.B. White, one of our last great idealists, was eternally right when he asserted half a century ago that the role of the writer is “to lift people up, not lower them down” — a role each of us is called to with increasing urgency, whatever cog we may be in the machinery of society. Supply creates its own demand. Only by consistently supplying it can we hope to increase the demand for the substantive over the superficial — in our individual lives and in the collective dream called culture."
+   — `Maria Popova`_
+
+.. _`Maria Popova` : https://www.themarginalian.org/2019/10/23/13-learnings-13-years/
+
+**What?** If we make good interfaces for finding and reusing knowledge, we can enable society-wide collaboration. Many people pointed in the similar direction over the history, from `Vannevar Bush in "As we may think"`_ (The Atlantic, July 1945),
+over `Douglas C. Engelbart in "Augmenting Human Intellect: A Conceptual Framework"`_ (October 1962)
+to `Bret Victor in "The Humane Representation of Thought"`_ (2014). What is maybe now more evident than ever is that knowledge accessibility is only the first step toward knowledge reuse and application in everyday life. A new knowledge interface has to enable better and easier learning, reuse and communication across the domain and societal boundaries.
+
+**How?** By combining information technology at its best with physicists' approach of progressive problem solving, it might be possible to provide necessary tools. The Internet is the perfect way to deliver these tools world-wide, and open-source is the only way to actively engage with a diverse community. Specific realized projects, which continue to be maintained and enlarged, are presented below.
+
+.. _`challenges we face as humanity` : https://ourworldindata.org/problems-and-progress
+.. _`Vannevar Bush in "As we may think"` : file:///home/nikola/Downloads/As%20We%20May%20Think%20-%20The%20Atlantic.html
+.. _`Douglas C. Engelbart in "Augmenting Human Intellect: A Conceptual Framework"` : https://www.dougengelbart.org/content/view/138
+.. _`Bret Victor in "The Humane Representation of Thought"` : https://vimeo.com/115154289
+
+
+
+Research, teaching & collaboration
+----------------------------------
+
 .. panels::
     :card: + intro-card text-center
     :column: col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex
@@ -164,3 +189,31 @@ Knowledge infrastructure
             :type: url
             :text: Physics World blogpost
             :classes: btn-block btn-secondary 
+
+Society
+-------
+
+.. panels::
+    :card: + intro-card text-center
+    :column: col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex
+
+    ---
+    :img-top: _static/carteevent.png
+
+    **Carteevent**
+    ^^^^^^^^^^^^^^
+
+    Simple web service that **mines cultural events** in Paris and around and **geolocalizes**
+    them on the map. Events are sorted categorized, and events with
+    category **tags can be searched using logical AND and OR operators**. This enables powerful features:
+    instead of searching for individual "dancing", "exposition"
+    tags, you can easily see a map of "swing dancing or photo exposition" events
+    for example. It allows saving the list of selected events and map views
+    in your **local browser memory** too, giving strong privacy protection.
+
+    +++
+
+    .. link-button:: https://www.carteevent.com
+            :type: url
+            :text: Open webapp
+            :classes: btn-block btn-secondary
