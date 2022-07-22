@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+:root {
+    --pst-font-family-base: 'Roboto', sans-serif, var(--pst-font-family-base-system);
+    --pst-font-family-heading: 'Roboto', sans-serif, var(--pst-font-family-base-system);
+    --pst-font-family-monospace: "Roboto Mono", monospace, var(--pst-font-family-monospace-system);
+    --pst-font-size-base: 1.1em;
+
+}

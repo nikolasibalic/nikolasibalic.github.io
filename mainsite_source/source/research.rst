@@ -85,7 +85,7 @@ functions generally useful for atomic physics calculations.
 
 **Reference:** `Computer Physics Communications  261, 107814 (2021)`_
 
-**Online Atom calculator:** `atomcalc.jqc.org.uk`_
+**Online Atom calculator:** `atomcalc.org`_
 
 `Documentation and examples`_
 
@@ -294,7 +294,7 @@ Here are the links for chapters of my thesis "Rydberg atom ensembles under depha
 
 .. _Computer Physics Communications 220, 319 (2017) : https://doi.org/10.1016/j.cpc.2017.06.015
 
-.. _atomcalc.jqc.org.uk : https://atomcalc.jqc.org.uk/
+.. _atomcalc.org : https://atomcalc.org/
 
 .. _Computer Physics Communications  261, 107814 (2021) : https://doi.org/10.1016/j.cpc.2020.107814
 

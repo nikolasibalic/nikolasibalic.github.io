@@ -71,7 +71,7 @@ Research, teaching & collaboration
 
     +++
 
-    .. link-button:: https://atomcalc.jqc.org.uk/
+    .. link-button:: https://atomcalc.org/
             :type: url
             :text: Open webapp
             :classes: btn-block btn-secondary 

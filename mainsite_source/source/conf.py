@@ -33,7 +33,6 @@ release = '1.0.0'
 extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.doctest',
-    'sphinx.ext.intersphinx',
     'sphinx.ext.todo',
     'sphinx.ext.coverage',
     'sphinx.ext.mathjax',
@@ -82,6 +81,10 @@ html_favicon = "./_static/ns.ico"
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+html_css_files = [
+    'fonts_overwrite.css',
+]
 
 html_theme_options = {
     "github_url": "https://github.com/nikolasibalic",
