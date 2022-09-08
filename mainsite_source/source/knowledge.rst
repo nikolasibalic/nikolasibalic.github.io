@@ -17,7 +17,7 @@ to `Bret Victor in "The Humane Representation of Thought"`_ (2014). What is mayb
 **How?** By combining information technology at its best with physicists' approach of progressive problem solving, it might be possible to provide necessary tools. The Internet is the perfect way to deliver these tools world-wide, and open-source is the only way to actively engage with a diverse community. Specific realized projects, which continue to be maintained and enlarged, are presented below.
 
 .. _`challenges we face as humanity` : https://ourworldindata.org/problems-and-progress
-.. _`Vannevar Bush in "As we may think"` : file:///home/nikola/Downloads/As%20We%20May%20Think%20-%20The%20Atlantic.html
+.. _`Vannevar Bush in "As we may think"` : https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/
 .. _`Douglas C. Engelbart in "Augmenting Human Intellect: A Conceptual Framework"` : https://www.dougengelbart.org/content/view/138
 .. _`Bret Victor in "The Humane Representation of Thought"` : https://vimeo.com/115154289
 
