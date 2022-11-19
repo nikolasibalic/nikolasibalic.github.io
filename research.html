@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Research &#8212; Nikola Šibalić 1.0.0 documentation</title>
     
-  <link href="_static/css/theme.css" rel="stylesheet" />
-  <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
 
     
   <link rel="stylesheet"
@@ -18,19 +19,15 @@
   <link rel="preload" as="font" type="font/woff2" crossorigin
     href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
 
-    
-      
-
-    
     <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="_static/basic.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/panels-bootstrap.5fd3999ee7762ccc51105388f4a9d115.css" />
     <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
     <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
     <link rel="stylesheet" type="text/css" href="_static/fonts_overwrite.css" />
     
-  <link rel="preload" as="script" href="_static/js/index.1c5a1a01449ed65a7b51.js">
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
 
     <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
@@ -47,10 +44,13 @@
     <link rel="next" title="Teaching" href="education.html" />
     <link rel="prev" title="Knowledge infrastructure" href="knowledge.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="docsearch:language" content="en" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
     
   </head>
-  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
     
     <div class="container-fluid" id="banner"></div>
 
@@ -114,16 +114,12 @@
       <div class="navbar-end-item">
         <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
         <li class="nav-item">
-          <a class="nav-link" href="https://github.com/nikolasibalic" rel="noopener" target="_blank" title="GitHub">
-            <span><i class="fab fa-github-square"></i></span>
-            <label class="sr-only">GitHub</label>
-          </a>
+          <a class="nav-link" href="https://github.com/nikolasibalic" rel="noopener" target="_blank" title="GitHub"><span><i class="fab fa-github-square"></i></span>
+            <label class="sr-only">GitHub</label></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://scholar.google.com/citations?user=o9TNqmkAAAAJ&hl=fr&oi=ao" rel="noopener" target="_blank" title="Publications">
-            <span><i class="fas fa-book"></i></span>
-            <label class="sr-only">Publications</label>
-          </a>
+          <a class="nav-link" href="https://scholar.google.com/citations?user=o9TNqmkAAAAJ&hl=fr&oi=ao" rel="noopener" target="_blank" title="Publications"><span><i class="fas fa-book"></i></span>
+            <label class="sr-only">Publications</label></a>
         </li>
       </ul>
       </div>
@@ -139,7 +135,8 @@
           
             
             <!-- Only show if we have sidebars configured, else just a small margin  -->
-            <div class="col-12 col-md-3 bd-sidebar"><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+            <div class="col-12 col-md-3 bd-sidebar">
+              <div class="sidebar-start-items"><form class="bd-search d-flex align-items-center" action="search.html" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
@@ -147,6 +144,9 @@
     
   </div>
 </nav>
+              </div>
+              <div class="sidebar-end-items">
+              </div>
             </div>
             
           
@@ -157,7 +157,7 @@
               
               <div class="toc-item">
                 
-<div class="tocsection onthispage pt-5 pb-3">
+<div class="tocsection onthispage mt-5 pt-1 pb-3">
     <i class="fas fa-list"></i> On this page
 </div>
 
@@ -254,9 +254,9 @@
               <div>
                 
   <div class="section" id="research">
-<h1>Research<a class="headerlink" href="#research" title="Permalink to this headline">¶</a></h1>
+<h1>Research<a class="headerlink" href="#research" title="Permalink to this headline">#</a></h1>
 <div class="section" id="non-equilibrium-phase-transitions">
-<h2>Non-equilibrium phase transitions<a class="headerlink" href="#non-equilibrium-phase-transitions" title="Permalink to this headline">¶</a></h2>
+<h2>Non-equilibrium phase transitions<a class="headerlink" href="#non-equilibrium-phase-transitions" title="Permalink to this headline">#</a></h2>
 <a class="reference internal image-reference" href="_images/many_body.png"><img alt="_images/many_body.png" class="align-right" src="_images/many_body.png" style="width: 350px;" /></a>
 <p>Rydberg atoms driven with the laser fields, dissipating through spontaneous
 emission and forced decay channels, with interactions tunable with static and
@@ -275,10 +275,10 @@ consistent and expendable framework.</p>
 <p><strong>Reference:</strong> <a class="reference external" href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.94.011401">Phys. Rev. A 94, 011401(R) (2016)</a></p>
 </div>
 <div class="section" id="rydberg-atoms">
-<h2>Rydberg atoms<a class="headerlink" href="#rydberg-atoms" title="Permalink to this headline">¶</a></h2>
+<h2>Rydberg atoms<a class="headerlink" href="#rydberg-atoms" title="Permalink to this headline">#</a></h2>
 <p>Highly excited atoms, in so-called Rydberg states, have strong atom-atom interactions, and long lifetimes. This makes them flexible platform for both quantum engineering on few-excitation level (light storage, single photon non-linearities, quantum logic gates) and exploration of fundamental physics that opens in the many-body regime with many excitations. Given the inherently non-equilibrium and non-linear nature of this system, understanding the phase diagrams, transitions and ordering in them represents one of the major challenges of the modern physics. All of this has a practical spin-offs too, due to the fact that atoms are sensitive probes of EM fields, with constant and indentical properties everywhere in the Universe.</p>
 <div class="section" id="thz-imaging">
-<h3>THz imaging<a class="headerlink" href="#thz-imaging" title="Permalink to this headline">¶</a></h3>
+<h3>THz imaging<a class="headerlink" href="#thz-imaging" title="Permalink to this headline">#</a></h3>
 <p>Atomic vapours provide a medium with properties that are fixed in time, and
 easily reproduced. This makes them an excellent resource for metrology. In
 particular, wide range of the transitions between the highly excited atoms
@@ -303,7 +303,7 @@ terahertz fields. This is demonstrated imaging fields at 25fps with consumer cam
 <p><strong>Reference</strong>: <a class="reference external" href="http://www.nature.com/nphoton/journal/vaop/ncurrent/full/nphoton.2016.214.html">Nature Photonics 11, 40 (2017)</a></p>
 </div>
 <div class="section" id="arc-open-source-library">
-<h3>ARC - open source library<a class="headerlink" href="#arc-open-source-library" title="Permalink to this headline">¶</a></h3>
+<h3>ARC - open source library<a class="headerlink" href="#arc-open-source-library" title="Permalink to this headline">#</a></h3>
 <p>Have you ever wished to be able to quickly perform calculations in Rydberg atomic
 physics? From quick estimates during meetings, to easy building up of calculations
 from primitives and data at hand, suitably wrapped in useful tools? From asymptotic
@@ -322,9 +322,9 @@ functions generally useful for atomic physics calculations.</p>
 </div>
 </div>
 <div class="section" id="quantum-optics">
-<h2>Quantum Optics<a class="headerlink" href="#quantum-optics" title="Permalink to this headline">¶</a></h2>
+<h2>Quantum Optics<a class="headerlink" href="#quantum-optics" title="Permalink to this headline">#</a></h2>
 <div class="section" id="focusing-light-with-a-quantum-needle">
-<h3>Focusing light with a quantum needle<a class="headerlink" href="#focusing-light-with-a-quantum-needle" title="Permalink to this headline">¶</a></h3>
+<h3>Focusing light with a quantum needle<a class="headerlink" href="#focusing-light-with-a-quantum-needle" title="Permalink to this headline">#</a></h3>
 <p>For light manipulation we usually employ objects that consists of millions of atoms,
 so many of them that we don’t think of individual constituents of mirrors and
 lenses we use. Recently attention has been drawn to the question how well we can
@@ -364,7 +364,7 @@ give red detuned shift in the resonance fluorescence of the ensemble.</p>
 <p><strong>Reference:</strong> <a class="reference external" href="https://doi.org/10.1103/PhysRevLett.124.253602">Phys. Rev. Lett. 124, 253602 (2020)</a></p>
 </div>
 <div class="section" id="storing-light-in-motion-insensitive-atomic-states-and-spectroscopy-of-micrometre-sized-blobs">
-<h3>Storing light in motion-insensitive atomic states, and spectroscopy of micrometre-sized blobs<a class="headerlink" href="#storing-light-in-motion-insensitive-atomic-states-and-spectroscopy-of-micrometre-sized-blobs" title="Permalink to this headline">¶</a></h3>
+<h3>Storing light in motion-insensitive atomic states, and spectroscopy of micrometre-sized blobs<a class="headerlink" href="#storing-light-in-motion-insensitive-atomic-states-and-spectroscopy-of-micrometre-sized-blobs" title="Permalink to this headline">#</a></h3>
 <p>Storing of light field excitation as a collective excitation of atomic clouds
 is important for quantum memories and gates. The storage time so far is limited
 by atomic motion that smears out information about the relative phases of the
@@ -391,7 +391,7 @@ proof-of-principle experiment.</p>
 <p><strong>Reference:</strong> <a class="reference external" href="http://dx.doi.org/10.1103/PhysRevA.94.033840">Phys. Rev. A 94, 033840 (2016)</a></p>
 </div>
 <div class="section" id="collective-quantum-beats-should-i-stay-or-should-i-go">
-<h3>Collective quantum beats: Should I stay or should I go?<a class="headerlink" href="#collective-quantum-beats-should-i-stay-or-should-i-go" title="Permalink to this headline">¶</a></h3>
+<h3>Collective quantum beats: Should I stay or should I go?<a class="headerlink" href="#collective-quantum-beats-should-i-stay-or-should-i-go" title="Permalink to this headline">#</a></h3>
 <p>We have embraced motion of the collective atomic excitation, to store single
 photon in superposition of two states: one nearly stationary, while the other
 moves away. Observed (collective) quantum beats due to emission of single photon
@@ -417,12 +417,12 @@ in atomic vapour cells, and a way of generating tuneable bi-chromatic photons.</
 <p><strong>Reference:</strong> <a class="reference external" href="https://doi.org/10.1103/PhysRevLett.118.253601">Phys. Rev. Lett. 118, 253601 (2017)</a></p>
 </div>
 <div class="section" id="hyperfine-state-quantum-beats-a-new-kind-of-excited-state-spectroscopy">
-<h3>Hyperfine state quantum beats: a new kind of excited state spectroscopy<a class="headerlink" href="#hyperfine-state-quantum-beats-a-new-kind-of-excited-state-spectroscopy" title="Permalink to this headline">¶</a></h3>
+<h3>Hyperfine state quantum beats: a new kind of excited state spectroscopy<a class="headerlink" href="#hyperfine-state-quantum-beats-a-new-kind-of-excited-state-spectroscopy" title="Permalink to this headline">#</a></h3>
 <p>Very short laser pulses, or spontaneous decays, can prepare system in superposition of states with well defined relative phase. If this states happen to decay radiatively, we can see signature of this coherent superposition as oscilation of the fluorescence intensity. This so-called quantum beats happen due to interference of multiple decay paths whose relative phases evolve in time due to differences in energies, imposed external drivings and relative atomic motion (if they are are collective, not single-atom based). We have explored this effect to follow dynamics between two excited states driven by coherent laser field, and observed collapses and rivivals of beating.</p>
 <p><strong>Reference:</strong> <a class="reference external" href="http://journals.aps.org/pra/abstract/10.1103/PhysRevA.90.033424">Phys. Rev A 90, 033424 (2014)</a></p>
 </div>
 <div class="section" id="eia-and-eit-in-multi-photon-excitation-schemes">
-<h3>EIA and EIT in multi-photon excitation schemes<a class="headerlink" href="#eia-and-eit-in-multi-photon-excitation-schemes" title="Permalink to this headline">¶</a></h3>
+<h3>EIA and EIT in multi-photon excitation schemes<a class="headerlink" href="#eia-and-eit-in-multi-photon-excitation-schemes" title="Permalink to this headline">#</a></h3>
 <p>Different excitation schemes can offer not only technological simplifications,
 but also new possibilities. We have recently explored four photon Rydberg
 excitation scheme, and observed absorptions and transparencies due to complex
@@ -432,17 +432,17 @@ a very low laser powers (<span class="math notranslate nohighlight">\(\mu\mathrm
 </div>
 </div>
 <div class="section" id="atom-surface-interactions">
-<h2>Atom-surface interactions<a class="headerlink" href="#atom-surface-interactions" title="Permalink to this headline">¶</a></h2>
+<h2>Atom-surface interactions<a class="headerlink" href="#atom-surface-interactions" title="Permalink to this headline">#</a></h2>
 <p><strong>Reference:</strong> <a class="reference external" href="https://doi.org/10.1103/PhysRevA.100.022503">Phys. Rev. A 100, 022503 (2019)</a></p>
 <p><a class="reference external" href="https://github.com/thermal-vapours/TAS-Transmission-Atom-Surface">Code and data, with Jupyter notebook showing use.</a></p>
 </div>
 <div class="section" id="laser-stabilisation">
-<h2>Laser stabilisation<a class="headerlink" href="#laser-stabilisation" title="Permalink to this headline">¶</a></h2>
+<h2>Laser stabilisation<a class="headerlink" href="#laser-stabilisation" title="Permalink to this headline">#</a></h2>
 <p><strong>Reference:</strong> <a class="reference external" href="https://doi.org/10.1364/OSAC.1.000004">OSA Continuum 1, 4 (2018)</a></p>
 <p><a class="reference external" href="https://github.com/nikolasibalic/ZSAR-Zeeman-Shifted-Atomic-Reference">Access to experimental apparatus 3D model fiels for machining.</a></p>
 </div>
 <div class="section" id="my-phd-thesis">
-<h2>My PhD thesis<a class="headerlink" href="#my-phd-thesis" title="Permalink to this headline">¶</a></h2>
+<h2>My PhD thesis<a class="headerlink" href="#my-phd-thesis" title="Permalink to this headline">#</a></h2>
 <p>Here are the links for chapters of my thesis “Rydberg atom ensembles under dephasing and dissipation: from single- to many-body dynamics” (Durham University, 2017)</p>
 <p><a class="reference external" href="http://etheses.dur.ac.uk/12224/1/Nikola_Sibalic_PhD_thesis_2017.pdf?DDD25+#page=21">Introduction</a>, Overview of dephasing and dissipation mechanishms and their impact on dynamics. Short history of Rydberg physics.</p>
 <p><a class="reference external" href="http://etheses.dur.ac.uk/12224/1/Nikola_Sibalic_PhD_thesis_2017.pdf?DDD25+#page=31">Rydberg atomic states: energy level structure and dynamics</a>. Check here for more details about ARC project, atomic structure, Rydberg interactions and THz imaging.</p>
@@ -457,12 +457,23 @@ a very low laser powers (<span class="math notranslate nohighlight">\(\mu\mathrm
               </div>
               
               
-              <div class='prev-next-bottom'>
-                
-    <a class='left-prev' id="prev-link" href="knowledge.html" title="previous page">Knowledge infrastructure</a>
-    <a class='right-next' id="next-link" href="education.html" title="next page">Teaching</a>
-
-              </div>
+              <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="knowledge.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Knowledge infrastructure</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="education.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Teaching</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
               
           </main>
           
@@ -470,20 +481,20 @@ a very low laser powers (<span class="math notranslate nohighlight">\(\mu\mathrm
       </div>
     </div>
   
-  <script src="_static/js/index.1c5a1a01449ed65a7b51.js"></script>
-
-  <footer class="footer mt-5 mt-md-0">
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+<footer class="footer mt-5 mt-md-0">
   <div class="container">
     
     <div class="footer-item">
       <p class="copyright">
-    &copy; Copyright 2021, Nikola Šibalić.<br/>
+    &copy; Copyright 2021, Nikola Šibalić.<br>
 </p>
     </div>
     
     <div class="footer-item">
       <p class="sphinx-version">
-Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.4.0.<br/>
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.4.0.<br>
 </p>
     </div>
     

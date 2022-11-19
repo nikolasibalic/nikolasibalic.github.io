@@ -12,23 +12,24 @@ Nikola Šibalić's web directory
    impact
 
 
-Making the world more easily understandable...
+Making the world more easily understandable.
 
-Starting with one atom and one photon at a time...
+Starting with one atom and one photon at a time, ending up building new tools
+and new infrastructure.
 
 Using guerilla fighting skills, applied to many-body non-equilibrium systems,
-helped with distributed tools, and with disregard of excessive labels...
+helped with distributed tools, and with disregard of excessive labels.
    
 
-With passion to improve knowledge accessibiliy and (re)use...
+With passion to improve knowledge accessibility and (re)use.
 
 This is a directory of my realized projects undertaken with the above stated
 goals and approach.
 They include both research, educational, open-source and community based projects.
-If you are **scientists or educator** check `Knowledge infrastructure`_, if you 
+If you are a **scientists or educator** check `Knowledge infrastructure`_, if you 
 are **doing AMO physics research** check `Research`_, and if **you are learning**
 check `Teaching`_. Hopefully something would be useful, something can be reused
-in your work, something maybe intrquing, and you might even want to contribute
+in your work, something maybe intriguing, and you might even want to contribute
 and improve. You can also get in touch at
 **nikola  sibalic  delete_spaces_put_@  physics.org**
 
