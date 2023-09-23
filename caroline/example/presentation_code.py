@@ -8,6 +8,7 @@ p = Presentation(
     roundTableServer="https://roundtable.researchx3d.com",
     presentationServer="https://nikolasibalic.github.io/caroline/example/presentation_audience.html",
     authenticationToken="osagASfew8t31qNqfHQ3Gq",
+    presentationSemaphore=True
 )
 
 # drawingHelp = ""  OR "lines"  OR  "dots"
