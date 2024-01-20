@@ -177,7 +177,7 @@ Research, teaching & collaboration
 
     .. link-button:: https://nikolasibalic.github.io/Interactive-Publishing/
             :type: url
-            :text: See simple example
+            :text: Documentation and examples
             :classes: btn-block btn-secondary
 
     .. link-button:: https://github.com/nikolasibalic/Interactive-publishing

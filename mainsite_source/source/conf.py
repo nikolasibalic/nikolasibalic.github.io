@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Nikola Šibalić'
-copyright = '2021, Nikola Šibalić'
+copyright = '2024, Nikola Šibalić'
 author = 'Nikola Šibalić'
 
 # The full version, including alpha/beta/rc tags
@@ -42,7 +42,8 @@ extensions = [
     'sphinx.ext.autosummary',
     'nbsphinx',
     'sphinx_copybutton',
-    'sphinx_panels'
+    'sphinx_panels',
+    'myst_parser'
 ]
 
 nbsphinx_codecell_lexer = 'ipython3'
@@ -86,10 +87,18 @@ html_css_files = [
     'fonts_overwrite.css',
 ]
 
+html_context = {
+    "default_mode": "light",
+    "show_nav_level": 2,
+    "collapse_navigation": True,
+    "use_edit_page_button": False,
+}
+
 html_theme_options = {
     "github_url": "https://github.com/nikolasibalic",
     "use_edit_page_button": False,
-    "show_toc_level": 1,
+    "show_toc_level": 2,
+    "navigation_depth": 2,
     "icon_links": [
         {
             "name": "Publications",
