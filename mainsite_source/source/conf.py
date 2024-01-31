@@ -31,20 +31,42 @@ release = '1.0.0'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.autodoc',
-    'sphinx.ext.doctest',
-    'sphinx.ext.todo',
-    'sphinx.ext.coverage',
-    'sphinx.ext.mathjax',
-    'sphinx.ext.ifconfig',
-    'sphinx.ext.viewcode',
-    'sphinx.ext.napoleon',
-    'sphinx.ext.autosummary',
-    'nbsphinx',
-    'sphinx_copybutton',
-    'sphinx_panels',
-    'myst_parser'
+    "sphinx.ext.napoleon",
+    "sphinx.ext.autodoc",
+    "sphinx.ext.autosummary",
+    "sphinx.ext.todo",
+    "sphinx.ext.viewcode",
+    "sphinxext.rediraffe",
+    "sphinx_design",
+    "sphinx_copybutton",
+    #"autoapi.extension",
+    # custom extentions
+    # "_extension.gallery_directive",
+    # "_extension.component_directive",
+    # For extension examples and demos
+    "myst_parser",
+    #"ablog",
+    # "jupyter_sphinx",
+    "sphinxcontrib.youtube",
+    "nbsphinx",
+    #"numpydoc",
+    "sphinx_togglebutton",
+    #"jupyterlite_sphinx",
+    "sphinx_favicon",
+    "sphinxext.opengraph",
 ]
+
+ogp_site_url = "https://nikolasibalic.github.io"
+ogp_description_length = "Nikola Šibalić's web directory. AMO physics teaching resources, research papers, interactive books, web services for knowledge sharing."
+ogp_image = "./_static/logo.png"
+
+# This allows us to use ::: to denote directives, useful for admonitions
+myst_enable_extensions = ["colon_fence", "linkify", "substitution"]
+myst_heading_anchors = 2
+myst_substitutions = {"rtd": "[Read the Docs](https://readthedocs.org/)"}
+
+# specifying the natural language populates some key tags
+language = "en"
 
 nbsphinx_codecell_lexer = 'ipython3'
 
@@ -54,9 +76,6 @@ intersphinx_mapping = {
     'numpy': ('https://numpy.org/doc/stable', (None, 'intersphinx/numpy-objects.inv')),
     'matplotlib': ('https://matplotlib.org/stable', (None, 'intersphinx/matplotlib-objects.inv')),
 }
-
-autodoc_default_flags = ['members', 'inherited-members']
-autosummary_imported_members= True
 
 pygments_style = 'sphinx'
 # Add any paths that contain templates here, relative to this directory.
@@ -90,24 +109,33 @@ html_css_files = [
 html_context = {
     "default_mode": "light",
     "show_nav_level": 2,
-    "collapse_navigation": True,
+    "collapse_navigation": False,
     "use_edit_page_button": False,
 }
+
 
 html_theme_options = {
     "github_url": "https://github.com/nikolasibalic",
     "use_edit_page_button": False,
-    "show_toc_level": 2,
-    "navigation_depth": 2,
+    "show_toc_level": 1,
+    
+    "external_links": [
+        {
+            "url": "https://nikolasibalic.github.io/status/",
+            "name": "Service status",
+        }
+    ],
     "icon_links": [
         {
             "name": "Publications",
             "url": "https://scholar.google.com/citations?user=o9TNqmkAAAAJ&hl=fr&oi=ao",
             "icon": "fas fa-book",
         }
-    ]
+    ],
+    "navbar_align": "left",
+    "navigation_depth": 2,
     # "show_nav_level": 2,
-    # "search_bar_position": "navbar",  # TODO: Deprecated - remove in future version
+    #"search_bar_position": "navbar",  # TODO: Deprecated - remove in future version
     # "navbar_align": "left",  # [left, content, right] For testing that the navbar items align properly
     # "navbar_start": ["navbar-logo", "navbar-version"],
     # "navbar_center": ["navbar-nav", "navbar-version"],  # Just for testing

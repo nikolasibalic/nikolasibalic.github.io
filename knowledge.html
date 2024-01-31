@@ -7,6 +7,14 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta property="og:title" content="Knowledge infrastructure" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://nikolasibalic.github.io/knowledge.html" />
+<meta property="og:site_name" content="Nikola Šibalić" />
+<meta property="og:description" content="Knowledge infrastructure. Software and web services for sharing and interacting with academic knowledge." />
+<meta property="og:image" content="https://nikolasibalic.github.io/_static/logo.png" />
+<meta property="og:image:alt" content="Nikola Šibalić" />
+<meta name="description" content="Why? Many of the important challenges we face as humanity rely on coordinated work of many experts and organizations. To be able to mobilize society-wide response to raise up to the scale of the ch..." />
 
     <title>Knowledge infrastructure &#8212; Nikola Šibalić 1.0.0 documentation</title>
   
@@ -30,9 +38,8 @@
 
     <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="_static/panels-bootstrap.5fd3999ee7762ccc51105388f4a9d115.css?v=45cf7dbc" />
-    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css?v=2a6c4383" />
-    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css?v=d290406d" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
     <link rel="stylesheet" type="text/css" href="_static/fonts_overwrite.css?v=3044aa5b" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
@@ -45,7 +52,14 @@
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/clipboard.min.js?v=a7894cd8"></script>
     <script src="_static/copybutton.js?v=f281be69"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+    <script src="_static/design-tabs.js?v=36754332"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'knowledge';</script>
     <link rel="icon" href="_static/ns.ico"/>
     <link rel="index" title="Index" href="genindex.html" />
@@ -111,7 +125,7 @@
   </label>
   
   
-  <div class="col-lg-3 navbar-header-items__start">
+  <div class=" navbar-header-items__start">
     
       <div class="navbar-item">
 
@@ -134,7 +148,7 @@
     
   </div>
   
-  <div class="col-lg-9 navbar-header-items">
+  <div class=" navbar-header-items">
     
     <div class="me-auto navbar-header-items__center">
       
@@ -168,6 +182,13 @@
                         Impact
                       </a>
                     </li>
+                
+
+                <li class="nav-item">
+                  <a class="nav-link nav-external" href="https://nikolasibalic.github.io/status/">
+                    Service status
+                  </a>
+                </li>
                 
   </ul>
 </nav></div>
@@ -306,6 +327,13 @@ document.write(`
                       </a>
                     </li>
                 
+
+                <li class="nav-item">
+                  <a class="nav-link nav-external" href="https://nikolasibalic.github.io/status/">
+                    Service status
+                  </a>
+                </li>
+                
   </ul>
 </nav></div>
         
@@ -429,171 +457,15 @@ document.write(`
 over <a class="reference external" href="https://www.dougengelbart.org/content/view/138">Douglas C. Engelbart in “Augmenting Human Intellect: A Conceptual Framework”</a> (October 1962)
 to <a class="reference external" href="https://vimeo.com/115154289">Bret Victor in “The Humane Representation of Thought”</a> (2014). What is maybe now more evident than ever is that knowledge accessibility is only the first step toward knowledge reuse and application in everyday life. A new knowledge interface has to enable better and easier learning, reuse and communication across the domain and societal boundaries.</p>
 <p><strong>How?</strong> By combining information technology at its best with physicists’ approach of progressive problem solving, it might be possible to provide necessary tools. The Internet is the perfect way to deliver these tools world-wide, and open-source is the only way to actively engage with a diverse community. Specific realized projects, which continue to be maintained and enlarged, are presented below.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>For “live” services below you can verify status at <a class="reference external" href="https://nikolasibalic.github.io/status/">Service status</a> page.</p>
+</div>
 <section id="research-teaching-collaboration">
 <h2>Research, teaching &amp; collaboration<a class="headerlink" href="#research-teaching-collaboration" title="Link to this heading">#</a></h2>
-<div class="sphinx-bs container pb-4 docutils">
-<div class="row docutils">
-<div class="d-flex col-lg-6 col-md-6 col-sm-6 col-xs-12 docutils">
-<div class="card w-100 shadow intro-card text-center docutils">
-<img alt="img-top" class="card-img-top" src="_images/ARC.png" />
-<div class="card-header docutils">
-<p class="card-text"><strong>ARC (Alkali.ne Rydberg Calculator)</strong></p>
-</div>
-<div class="card-body docutils">
-<p class="card-text">ARC (Alkali.ne Rydberg Calculator) is package of routines written in Python,
-using object-oriented programming (OOP) to make modular, reusable and extendable
-collection of <strong>routines and data</strong> for performing useful calculations of single
-atom and two-atom properties, like level diagrams, interactions and
-transition strengths for alkali and divalent atoms. Gradually extended to
-be all-encompasing Python toolbox for atomic-physics calculations.</p>
-</div>
-<div class="card-footer docutils">
-<p class="card-text"><a class="sphinx-bs btn text-wrap btn-block btn-secondary reference external" href="https://github.com/nikolasibalic/ARC-Alkali-Rydberg-Calculator"><span>See on GitHub</span></a></p>
-<p class="card-text"><a class="sphinx-bs btn text-wrap btn-block btn-secondary reference external" href="https://arc-alkali-rydberg-calculator.readthedocs.io/en/latest/"><span>Documentation &amp; examples</span></a></p>
-</div>
-</div>
-</div>
-<div class="d-flex col-lg-6 col-md-6 col-sm-6 col-xs-12 docutils">
-<div class="card w-100 shadow intro-card text-center docutils">
-<img alt="img-top" class="card-img-top" src="_images/atom-calculator.png" />
-<div class="card-header docutils">
-<p class="card-text"><strong>Atom calculator</strong></p>
-</div>
-<div class="card-body docutils">
-<p class="card-text">Web applications providing not only simple interface to ARC, but also generic
-scheduling of complex longer calculations, notificatoins when calculations
-are done, retrival of similar calculations, and interactive plots.
-This lowers boundary to use of scientific knowledge, by
-<strong>bringing state-of-the-art AMO knowledge from labs to pubs.</strong></p>
-</div>
-<div class="card-footer docutils">
-<p class="card-text"><a class="sphinx-bs btn text-wrap btn-block btn-secondary reference external" href="https://atomcalc.org/"><span>Open webapp</span></a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="sphinx-bs container pb-4 docutils">
-<div class="row docutils">
-<div class="d-flex col-lg-6 col-md-6 col-sm-6 col-xs-12 docutils">
-<div class="card w-100 shadow intro-card text-center docutils">
-<img alt="img-top" class="card-img-top" src="_images/researchx3d.png" />
-<div class="card-header docutils">
-<p class="card-text"><strong>ResearchX3D</strong></p>
-</div>
-<div class="card-body docutils">
-<p class="card-text">All science is <strong>experimental</strong> by definition, yet designing new experimental
-apparatus is usually not being explored with much detail in education. This
-is hard 3-dimensional problem, that requires interdisciplinary knowledge.
-ResearchX3D collects 3D models and makes also photogrametic reconstructions
-based on submited photographs of scientific apparatus from around the world.
-Models can be anotated with 3D pointers to “show-and-tell”, sound, equations,
-figures… and everything is available on 28 langauges. sorted by knowledge
-level (from primary school to research level).</p>
-</div>
-<div class="card-footer docutils">
-<p class="card-text"><a class="sphinx-bs btn text-wrap btn-block btn-secondary reference external" href="https://www.researchx3d.com"><span>Open webapp</span></a></p>
-<p class="card-text"><a class="sphinx-bs btn text-wrap btn-block btn-secondary reference external" href="https://www.youtube.com/watch?v=LZDBc406JmY"><span>Video introduction</span></a></p>
-</div>
-</div>
-</div>
-<div class="d-flex col-lg-6 col-md-6 col-sm-6 col-xs-12 docutils">
-<div class="card w-100 shadow intro-card text-center docutils">
-<img alt="img-top" class="card-img-top" src="_images/roundtable.png" />
-<div class="card-header docutils">
-<p class="card-text"><strong>Roundtable</strong></p>
-</div>
-<div class="card-body docutils">
-<p class="card-text">In real life meetings around Roundtable everyone can point and add their
-sketched idea on the presented material. Now we extend that experience for
-meetings with physical distancing, with many participants, or even with
-participants distributed around the world. Have engaging meetings with
-collaborative feedback using this distributed discussion surface!
-This is <strong>made for scientific discusisons</strong>, supports sharing and collective
-exploratoin and annotation of pdf, images, source-code, Jupyter notebooks,
-with free hand or with typed annotations (LaTeX included). You can download
-annotated samples and shared files. Everything is stored just among peers.</p>
-</div>
-<div class="card-footer docutils">
-<p class="card-text"><a class="sphinx-bs btn text-wrap btn-block btn-secondary reference external" href="https://roundtable.researchx3d.com"><span>Open webapp</span></a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="sphinx-bs container pb-4 docutils">
-<div class="row docutils">
-<div class="d-flex col-lg-6 col-md-6 col-sm-6 col-xs-12 docutils">
-<div class="card w-100 shadow intro-card text-center docutils">
-<img alt="img-top" class="card-img-top" src="_images/caroline.png" />
-<div class="card-header docutils">
-<p class="card-text"><strong>Caroline</strong></p>
-</div>
-<div class="card-body docutils">
-<p class="card-text">Caroline is open-source Python framework for interactive web/HTML+JS based
-science presentations. With Caroline you can <strong>show and annotate everything</strong>.
-Interface is minimalistic and focus is on content. Caroline blurs distinction
-between slides and whiteboard, between demonstration and derivation, and
-smoothly even crosses from one way lecturing to interacting with the audience
-<strong>allowing real-time note-taking, quizzes and even all-to-all collaboration</strong>.
-Caroline is made specifically not just to impress the audience but to allow
-you to do everything you possibly can to reach “aha!” moment of understanding
-and inspiration,</p>
-</div>
-<div class="card-footer docutils">
-<p class="card-text"><a class="sphinx-bs btn text-wrap btn-block btn-secondary reference external" href="https://github.com/nikolasibalic/Caroline"><span>Open on GitHub</span></a></p>
-</div>
-</div>
-</div>
-<div class="d-flex col-lg-6 col-md-6 col-sm-6 col-xs-12 docutils">
-<div class="card w-100 shadow intro-card text-center docutils">
-<img alt="img-top" class="card-img-top" src="_images/interactive-publishing.png" />
-<div class="card-header docutils">
-<p class="card-text"><strong>Interactive Publishing</strong></p>
-</div>
-<div class="card-body docutils">
-<p class="card-text">This project provides quick starting point for anyone who wants to experiment
-with interactive text and figures in their electronic publications
-(EPUB3 / HTML5 + JavaScript). One possible reason why one would use
-<strong>interactive text and figures</strong> is to communicate many possible stories to the
-audience, instead of usual single story line. See Physics World blogpost.</p>
-</div>
-<div class="card-footer docutils">
-<p class="card-text"><a class="sphinx-bs btn text-wrap btn-block btn-secondary reference external" href="https://nikolasibalic.github.io/Interactive-Publishing/"><span>Documentation and examples</span></a></p>
-<p class="card-text"><a class="sphinx-bs btn text-wrap btn-block btn-secondary reference external" href="https://github.com/nikolasibalic/Interactive-publishing"><span>Open on GitHub</span></a></p>
-<p class="card-text"><a class="sphinx-bs btn text-wrap btn-block btn-secondary reference external" href="https://physicsworld.com/a/do-interactive-figures-help-physicists-to-communicate-their-science/"><span>Physics World blogpost</span></a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
 </section>
 <section id="society">
 <h2>Society<a class="headerlink" href="#society" title="Link to this heading">#</a></h2>
-<div class="sphinx-bs container pb-4 docutils">
-<div class="row docutils">
-<div class="d-flex col-lg-6 col-md-6 col-sm-6 col-xs-12 docutils">
-<div class="card w-100 shadow intro-card text-center docutils">
-<img alt="img-top" class="card-img-top" src="_images/carteevent.png" />
-<div class="card-header docutils">
-<p class="card-text"><strong>Carteevent</strong></p>
-</div>
-<div class="card-body docutils">
-<p class="card-text">Simple web service that <strong>mines cultural events</strong> in Paris and around and <strong>geolocalizes</strong>
-them on the map. Events are sorted categorized, and events with
-category <strong>tags can be searched using logical AND and OR operators</strong>. This enables powerful features:
-instead of searching for individual “dancing”, “exposition”
-tags, you can easily see a map of “swing dancing or photo exposition” events
-for example. It allows saving the list of selected events and map views
-in your <strong>local browser memory</strong> too, giving strong privacy protection.</p>
-</div>
-<div class="card-footer docutils">
-<p class="card-text"><a class="sphinx-bs btn text-wrap btn-block btn-secondary reference external" href="https://www.carteevent.com"><span>Open webapp</span></a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
 </section>
 </section>
 

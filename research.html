@@ -7,6 +7,14 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta property="og:title" content="Research" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://nikolasibalic.github.io/research.html" />
+<meta property="og:site_name" content="Nikola Šibalić" />
+<meta property="og:description" content="Non-equilibrium phase transitions: Rydberg atoms driven with the laser fields, dissipating through spontaneous emission and forced decay channels, with interactions tunable with static and microwav..." />
+<meta property="og:image" content="https://nikolasibalic.github.io/_static/logo.png" />
+<meta property="og:image:alt" content="Nikola Šibalić" />
+<meta name="description" content="Non-equilibrium phase transitions: Rydberg atoms driven with the laser fields, dissipating through spontaneous emission and forced decay channels, with interactions tunable with static and microwav..." />
 
     <title>Research &#8212; Nikola Šibalić 1.0.0 documentation</title>
   
@@ -30,9 +38,8 @@
 
     <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="_static/panels-bootstrap.5fd3999ee7762ccc51105388f4a9d115.css?v=45cf7dbc" />
-    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css?v=2a6c4383" />
-    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css?v=d290406d" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
     <link rel="stylesheet" type="text/css" href="_static/fonts_overwrite.css?v=3044aa5b" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
@@ -45,7 +52,14 @@
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/clipboard.min.js?v=a7894cd8"></script>
     <script src="_static/copybutton.js?v=f281be69"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+    <script src="_static/design-tabs.js?v=36754332"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>window.MathJax = {"tex": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processEscapes": true}, "options": {"ignoreHtmlClass": "tex2jax_ignore|mathjax_ignore|document", "processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
     <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'research';</script>
@@ -113,7 +127,7 @@
   </label>
   
   
-  <div class="col-lg-3 navbar-header-items__start">
+  <div class=" navbar-header-items__start">
     
       <div class="navbar-item">
 
@@ -136,7 +150,7 @@
     
   </div>
   
-  <div class="col-lg-9 navbar-header-items">
+  <div class=" navbar-header-items">
     
     <div class="me-auto navbar-header-items__center">
       
@@ -170,6 +184,13 @@
                         Impact
                       </a>
                     </li>
+                
+
+                <li class="nav-item">
+                  <a class="nav-link nav-external" href="https://nikolasibalic.github.io/status/">
+                    Service status
+                  </a>
+                </li>
                 
   </ul>
 </nav></div>
@@ -307,6 +328,13 @@ document.write(`
                         Impact
                       </a>
                     </li>
+                
+
+                <li class="nav-item">
+                  <a class="nav-link nav-external" href="https://nikolasibalic.github.io/status/">
+                    Service status
+                  </a>
+                </li>
                 
   </ul>
 </nav></div>
@@ -666,12 +694,12 @@ a very low laser powers (<span class="math notranslate nohighlight">\(\mu\mathrm
   <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#non-equilibrium-phase-transitions">Non-equilibrium phase transitions</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#rydberg-atoms">Rydberg atoms</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#rydberg-atoms">Rydberg atoms</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#thz-imaging">THz imaging</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#arc-open-source-library">ARC - open source library</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quantum-optics">Quantum Optics</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quantum-optics">Quantum Optics</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#focusing-light-with-a-quantum-needle">Focusing light with a quantum needle</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#storing-light-in-motion-insensitive-atomic-states-and-spectroscopy-of-micrometre-sized-blobs">Storing light in motion-insensitive atomic states, and spectroscopy of micrometre-sized blobs</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#collective-quantum-beats-should-i-stay-or-should-i-go">Collective quantum beats: Should I stay or should I go?</a></li>

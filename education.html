@@ -7,6 +7,14 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta property="og:title" content="Teaching" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://nikolasibalic.github.io/education.html" />
+<meta property="og:site_name" content="Nikola Šibalić" />
+<meta property="og:description" content="Teaching resources. Interactive eBooks, Caroline framework for presentations, 3D and AR web platform for experimental setup description and more." />
+<meta property="og:image" content="https://nikolasibalic.github.io/_static/logo.png" />
+<meta property="og:image:alt" content="Nikola Šibalić" />
+<meta name="description" content="I have been involved in teaching, course/competition creation, marking, and supervision at all levels of physics eduction (primary school -> highschool -> undergraduate -> postgraduate). Selected m..." />
 
     <title>Teaching &#8212; Nikola Šibalić 1.0.0 documentation</title>
   
@@ -30,9 +38,8 @@
 
     <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="_static/panels-bootstrap.5fd3999ee7762ccc51105388f4a9d115.css?v=45cf7dbc" />
-    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css?v=2a6c4383" />
-    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css?v=d290406d" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
     <link rel="stylesheet" type="text/css" href="_static/fonts_overwrite.css?v=3044aa5b" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
@@ -45,7 +52,14 @@
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/clipboard.min.js?v=a7894cd8"></script>
     <script src="_static/copybutton.js?v=f281be69"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+    <script src="_static/design-tabs.js?v=36754332"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'education';</script>
     <link rel="icon" href="_static/ns.ico"/>
     <link rel="index" title="Index" href="genindex.html" />
@@ -111,7 +125,7 @@
   </label>
   
   
-  <div class="col-lg-3 navbar-header-items__start">
+  <div class=" navbar-header-items__start">
     
       <div class="navbar-item">
 
@@ -134,7 +148,7 @@
     
   </div>
   
-  <div class="col-lg-9 navbar-header-items">
+  <div class=" navbar-header-items">
     
     <div class="me-auto navbar-header-items__center">
       
@@ -168,6 +182,13 @@
                         Impact
                       </a>
                     </li>
+                
+
+                <li class="nav-item">
+                  <a class="nav-link nav-external" href="https://nikolasibalic.github.io/status/">
+                    Service status
+                  </a>
+                </li>
                 
   </ul>
 </nav></div>
@@ -306,6 +327,13 @@ document.write(`
                       </a>
                     </li>
                 
+
+                <li class="nav-item">
+                  <a class="nav-link nav-external" href="https://nikolasibalic.github.io/status/">
+                    Service status
+                  </a>
+                </li>
+                
   </ul>
 </nav></div>
         
@@ -438,10 +466,13 @@ and supervision at all levels of physics eduction (primary school -&gt; highscho
 <li><p>Physics world <a class="reference external" href="https://physicsworld.com/a/do-interactive-figures-help-physicists-to-communicate-their-science/">blogpost</a> and <a class="reference external" href="https://iopscience.iop.org/article/10.1088/2058-7058/32/5/22">article</a> about using interactive materials to enhance learning and improve discussion of ideas is available here.</p></li>
 </ul>
 <hr class="docutils" />
-<p><strong>IMPORTANT:</strong> Recommended way for reading interactive books is directly on <a class="reference external" href="https://iopscience.iop.org/">IOP Science</a>,
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Recommended way for reading interactive books is directly on <a class="reference external" href="https://iopscience.iop.org/">IOP Science</a>,
 or alternatively in EPUB format using <a class="reference external" href="https://thorium.edrlab.org/">Thorium EPUB reader</a> which is a free desktop application
 on Windows, Mac or Linux, that also supports various accessability options.
 Choice of reader is important since many simple EPUB readers don’t support EPUB3 fully, which is necessary for interactive elements.</p>
+</div>
 <p>Additionally, try out projects below that support teaching (selected from <a class="reference external" href="./knowledge.html">Knowledge infrastructure page</a>):</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://roundtable.researchx3d.com">Roundtable</a> online table and whiteboard for meetings with collaborative feedback, supporting file sharing, collaborative annotations, equations, etc.</p></li>
@@ -465,7 +496,7 @@ the meetings check the <a class="reference external" href="_static/roundtable_me
 <p>Video introduction accessible to lay public, on importance of scientific instruments,
 introducing a web platform <a class="reference external" href="http://www.researchx3d.com">ResearchX3D</a> for sharing scientific apparatus models,
 stories and design tips.</p>
-<iframe width="806" height="453" src="https://www.youtube-nocookie.com/embed/LZDBc406JmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></section>
+<iframe width="600" height="337" src="https://www.youtube-nocookie.com/embed/LZDBc406JmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></section>
 </section>
 
 

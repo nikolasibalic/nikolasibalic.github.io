@@ -1,3 +1,5 @@
+:og:description: Knowledge infrastructure. Software and web services for sharing and interacting with academic knowledge.
+
 Knowledge infrastructure
 ========================
 
@@ -21,7 +23,10 @@ to `Bret Victor in "The Humane Representation of Thought"`_ (2014). What is mayb
 .. _`Douglas C. Engelbart in "Augmenting Human Intellect: A Conceptual Framework"` : https://www.dougengelbart.org/content/view/138
 .. _`Bret Victor in "The Humane Representation of Thought"` : https://vimeo.com/115154289
 
+.. tip::
+        For "live" services below you can verify status at `Service status`_ page.
 
+.. _`Service status`: https://nikolasibalic.github.io/status/
 
 Research, teaching & collaboration
 ----------------------------------

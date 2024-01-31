@@ -10,3 +10,10 @@ nbsphinx
 sphinx-copybutton
 sphinx-panels
 ipython
+sphinxext-rediraffe
+sphinx_design
+autoapi
+sphinxcontrib-youtube
+sphinx-togglebutton
+sphinx-favicon
+sphinxext-opengraph

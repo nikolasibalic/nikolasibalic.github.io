@@ -1,3 +1,5 @@
+:og:description: Teaching resources. Interactive eBooks, Caroline framework for presentations, 3D and AR web platform for experimental setup description and more.
+
 Teaching
 ========
 
@@ -28,10 +30,11 @@ Selected materials
 
 -------
 
-**IMPORTANT:** Recommended way for reading interactive books is directly on `IOP Science`_,
-or alternatively in EPUB format using `Thorium EPUB reader`_ which is a free desktop application
-on Windows, Mac or Linux, that also supports various accessability options.
-Choice of reader is important since many simple EPUB readers don't support EPUB3 fully, which is necessary for interactive elements.
+.. important::
+   Recommended way for reading interactive books is directly on `IOP Science`_,
+   or alternatively in EPUB format using `Thorium EPUB reader`_ which is a free desktop application
+   on Windows, Mac or Linux, that also supports various accessability options.
+   Choice of reader is important since many simple EPUB readers don't support EPUB3 fully, which is necessary for interactive elements.
 
 
 Additionally, try out projects below that support teaching (selected from `Knowledge infrastructure page`_):
@@ -87,4 +90,4 @@ stories and design tips.
 
 .. raw:: html 
 
-    <iframe width="806" height="453" src="https://www.youtube-nocookie.com/embed/LZDBc406JmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="600" height="337" src="https://www.youtube-nocookie.com/embed/LZDBc406JmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
