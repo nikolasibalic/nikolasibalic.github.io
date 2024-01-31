@@ -36,7 +36,7 @@ extensions = [
     "sphinx.ext.autosummary",
     "sphinx.ext.todo",
     "sphinx.ext.viewcode",
-    "sphinxext.rediraffe",
+    #"sphinxext.rediraffe",
     "sphinx_design",
     "sphinx_copybutton",
     #"autoapi.extension",
@@ -54,6 +54,7 @@ extensions = [
     #"jupyterlite_sphinx",
     "sphinx_favicon",
     "sphinxext.opengraph",
+    #"sphinx_panels",
 ]
 
 ogp_site_url = "https://nikolasibalic.github.io"
@@ -117,7 +118,7 @@ html_context = {
 html_theme_options = {
     "github_url": "https://github.com/nikolasibalic",
     "use_edit_page_button": False,
-    "show_toc_level": 1,
+    "show_toc_level": 2,
     
     "external_links": [
         {

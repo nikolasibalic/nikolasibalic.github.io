@@ -40,7 +40,7 @@
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
-    <link rel="stylesheet" type="text/css" href="_static/fonts_overwrite.css?v=3044aa5b" />
+    <link rel="stylesheet" type="text/css" href="_static/fonts_overwrite.css?v=305e262b" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
   <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
@@ -445,7 +445,12 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="knowledge-infrastructure">
+  <style>
+  /* Make h2 bigger */
+  img {
+    border-radius: 5px;
+  }
+</style><section id="knowledge-infrastructure">
 <h1>Knowledge infrastructure<a class="headerlink" href="#knowledge-infrastructure" title="Link to this heading">#</a></h1>
 <p><strong>Why?</strong> Many of the important <a class="reference external" href="https://ourworldindata.org/problems-and-progress">challenges we face as humanity</a>  rely on coordinated work of many experts and organizations. To be able to mobilize society-wide response to raise up to the scale of the challenge, we need to enable knowledge to be not only more easily accessible, but also more easily reused by domain non-experts. We also need more transparency into origins of expert insights, to enable progression when expert opinions differ, and to enable feedback from non-experts that might crucially expand our solution-space horizons. Existing solutions of knowledge dissemination and reuse are not fit for the scale of interdisciplinarity and coordination we have to achieve: we need a new knowledge infrastructure.</p>
 <aside class="sidebar">
@@ -463,9 +468,145 @@ to <a class="reference external" href="https://vimeo.com/115154289">Bret Victor 
 </div>
 <section id="research-teaching-collaboration">
 <h2>Research, teaching &amp; collaboration<a class="headerlink" href="#research-teaching-collaboration" title="Link to this heading">#</a></h2>
+<section id="arc-alkali-ne-rydberg-calculator">
+<h3>ARC (Alkali.ne Rydberg Calculator)<a class="headerlink" href="#arc-alkali-ne-rydberg-calculator" title="Link to this heading">#</a></h3>
+<a class="reference internal image-reference" href="_images/ARC.png"><img alt="_images/ARC.png" class="align-right" src="_images/ARC.png" style="width: 350px;" /></a>
+<p>ARC (Alkali.ne Rydberg Calculator) is package of routines written in Python,
+using object-oriented programming (OOP) to make modular, reusable and extendable
+collection of <strong>routines and data</strong> for performing useful calculations of single
+atom and two-atom properties, like level diagrams, interactions and
+transition strengths for alkali and divalent atoms. Gradually extended to
+be all-encompasing Python toolbox for atomic-physics calculations.</p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-auto sd-row-cols-xs-auto sd-row-cols-sm-auto sd-row-cols-md-auto sd-row-cols-lg-auto docutils">
+<div class="sd-col sd-d-flex-column docutils">
+<p><a class="sd-sphinx-override sd-btn sd-text-wrap sd-btn-info sd-shadow-sm reference external" href="https://github.com/nikolasibalic/ARC-Alkali-Rydberg-Calculator"><span>See on GitHub</span></a></p>
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<p><a class="sd-sphinx-override sd-btn sd-text-wrap sd-btn-info sd-shadow-sm reference external" href="https://arc-alkali-rydberg-calculator.readthedocs.io/en/latest/"><span>Documentation &amp; examples</span></a></p>
+</div>
+</div>
+</div>
+</section>
+<section id="atom-calculator">
+<h3>Atom calculator<a class="headerlink" href="#atom-calculator" title="Link to this heading">#</a></h3>
+<a class="reference internal image-reference" href="_images/atom-calculator.png"><img alt="_images/atom-calculator.png" class="align-right" src="_images/atom-calculator.png" style="width: 350px;" /></a>
+<p>Web applications providing not only simple interface to ARC, but also generic
+scheduling of complex longer calculations, notificatoins when calculations
+are done, retrival of similar calculations, and interactive plots.
+This lowers boundary to use of scientific knowledge, by
+<strong>bringing state-of-the-art AMO knowledge from labs to pubs.</strong></p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-auto sd-row-cols-xs-auto sd-row-cols-sm-auto sd-row-cols-md-auto sd-row-cols-lg-auto docutils">
+<p><a class="sd-sphinx-override sd-btn sd-text-wrap sd-btn-info sd-shadow-sm reference external" href="https://atomcalc.org/"><span>Open webapp</span></a></p>
+</div>
+</div>
+</section>
+<section id="researchx3d">
+<h3>ResearchX3D<a class="headerlink" href="#researchx3d" title="Link to this heading">#</a></h3>
+<a class="reference internal image-reference" href="_images/researchx3d.png"><img alt="_images/researchx3d.png" class="align-right" src="_images/researchx3d.png" style="width: 350px;" /></a>
+<p>All science is <strong>experimental</strong> by definition, yet designing new experimental
+apparatus is usually not being explored with much detail in education. This
+is hard 3-dimensional problem, that requires interdisciplinary knowledge.
+ResearchX3D collects 3D models and makes also photogrametic reconstructions
+based on submited photographs of scientific apparatus from around the world.
+Models can be anotated with 3D pointers to “show-and-tell”, sound, equations,
+figures… and everything is available on 28 langauges. sorted by knowledge
+level (from primary school to research level).</p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-auto sd-row-cols-xs-auto sd-row-cols-sm-auto sd-row-cols-md-auto sd-row-cols-lg-auto docutils">
+<div class="sd-col sd-d-flex-column docutils">
+<p><a class="sd-sphinx-override sd-btn sd-text-wrap sd-btn-info sd-shadow-sm reference external" href="https://www.researchx3d.com"><span>Open webapp</span></a></p>
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<p><a class="sd-sphinx-override sd-btn sd-text-wrap sd-btn-info sd-shadow-sm reference external" href="https://www.youtube.com/watch?v=LZDBc406JmY"><span>Video introduction</span></a></p>
+</div>
+</div>
+</div>
+</section>
+<section id="roundtable">
+<h3>Roundtable<a class="headerlink" href="#roundtable" title="Link to this heading">#</a></h3>
+<a class="reference internal image-reference" href="_images/roundtable.png"><img alt="_images/roundtable.png" class="align-right" src="_images/roundtable.png" style="width: 350px;" /></a>
+<p>In real life meetings around Roundtable everyone can point and add their
+sketched idea on the presented material. Now we extend that experience for
+meetings with physical distancing, with many participants, or even with
+participants distributed around the world. Have engaging meetings with
+collaborative feedback using this distributed discussion surface!
+This is <strong>made for scientific discusisons</strong>, supports sharing and collective
+exploratoin and annotation of pdf, images, source-code, Jupyter notebooks,
+with free hand or with typed annotations (LaTeX included). You can download
+annotated samples and shared files. Everything is stored just among peers.</p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-auto sd-row-cols-xs-auto sd-row-cols-sm-auto sd-row-cols-md-auto sd-row-cols-lg-auto docutils">
+<div class="sd-col sd-d-flex-column docutils">
+<p><a class="sd-sphinx-override sd-btn sd-text-wrap sd-btn-info sd-shadow-sm reference external" href="https://roundtable.researchx3d.com"><span>Open webapp</span></a></p>
+</div>
+</div>
+</div>
+</section>
+<section id="caroline">
+<h3>Caroline<a class="headerlink" href="#caroline" title="Link to this heading">#</a></h3>
+<a class="reference internal image-reference" href="_images/caroline.png"><img alt="_images/caroline.png" class="align-right" src="_images/caroline.png" style="width: 350px;" /></a>
+<p>Caroline is open-source Python framework for interactive web/HTML+JS based
+science presentations. With Caroline you can <strong>show and annotate everything</strong>.
+Interface is minimalistic and focus is on content. Caroline blurs distinction
+between slides and whiteboard, between demonstration and derivation, and
+smoothly even crosses from one way lecturing to interacting with the audience
+<strong>allowing real-time note-taking, quizzes and even all-to-all collaboration</strong>.
+Caroline is made specifically not just to impress the audience but to allow
+you to do everything you possibly can to reach “aha!” moment of understanding
+and inspiration,</p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-auto sd-row-cols-xs-auto sd-row-cols-sm-auto sd-row-cols-md-auto sd-row-cols-lg-auto docutils">
+<div class="sd-col sd-d-flex-column docutils">
+<p><a class="sd-sphinx-override sd-btn sd-text-wrap sd-btn-info sd-shadow-sm reference external" href="https://github.com/nikolasibalic/Caroline"><span>Open on GitHub</span></a></p>
+</div>
+</div>
+</div>
+</section>
+<section id="interactive-publishing">
+<h3>Interactive Publishing<a class="headerlink" href="#interactive-publishing" title="Link to this heading">#</a></h3>
+<a class="reference internal image-reference" href="_images/interactive-publishing.png"><img alt="_images/interactive-publishing.png" class="align-right" src="_images/interactive-publishing.png" style="width: 350px;" /></a>
+<p>This project provides quick starting point for anyone who wants to experiment
+with interactive text and figures in their electronic publications
+(EPUB3 / HTML5 + JavaScript). One possible reason why one would use
+<strong>interactive text and figures</strong> is to communicate many possible stories to the
+audience, instead of usual single story line. See Physics World blogpost.</p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-auto sd-row-cols-xs-auto sd-row-cols-sm-auto sd-row-cols-md-auto sd-row-cols-lg-auto docutils">
+<div class="sd-col sd-d-flex-column docutils">
+<p><a class="sd-sphinx-override sd-btn sd-text-wrap sd-btn-info sd-shadow-sm reference external" href="https://nikolasibalic.github.io/Interactive-Publishing/"><span>Documentation and examples</span></a></p>
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<p><a class="sd-sphinx-override sd-btn sd-text-wrap sd-btn-info sd-shadow-sm reference external" href="https://github.com/nikolasibalic/Interactive-publishing"><span>Open on GitHub</span></a></p>
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<p><a class="sd-sphinx-override sd-btn sd-text-wrap sd-btn-info sd-shadow-sm reference external" href="https://physicsworld.com/a/do-interactive-figures-help-physicists-to-communicate-their-science/"><span>Physics World blogpost</span></a></p>
+</div>
+</div>
+</div>
+</section>
 </section>
 <section id="society">
 <h2>Society<a class="headerlink" href="#society" title="Link to this heading">#</a></h2>
+<section id="carteevent">
+<h3>Carteevent<a class="headerlink" href="#carteevent" title="Link to this heading">#</a></h3>
+<a class="reference internal image-reference" href="_images/carteevent.png"><img alt="_images/carteevent.png" class="align-right" src="_images/carteevent.png" style="width: 350px;" /></a>
+<p>Simple web service that <strong>mines cultural events</strong> in Paris and around and <strong>geolocalizes</strong>
+them on the map. Events are sorted categorized, and events with
+category <strong>tags can be searched using logical AND and OR operators</strong>. This enables powerful features:
+instead of searching for individual “dancing”, “exposition”
+tags, you can easily see a map of “swing dancing or photo exposition” events
+for example. It allows saving the list of selected events and map views
+in your <strong>local browser memory</strong> too, giving strong privacy protection.</p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-auto sd-row-cols-xs-auto sd-row-cols-sm-auto sd-row-cols-md-auto sd-row-cols-lg-auto docutils">
+<div class="sd-col sd-d-flex-column docutils">
+<p><a class="sd-sphinx-override sd-btn sd-text-wrap sd-btn-info sd-shadow-sm reference external" href="https://www.carteevent.com"><span>Open webapp</span></a></p>
+</div>
+</div>
+</div>
+</section>
 </section>
 </section>
 
@@ -515,8 +656,19 @@ to <a class="reference external" href="https://vimeo.com/115154289">Bret Victor 
   </div>
   <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#research-teaching-collaboration">Research, teaching &amp; collaboration</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#society">Society</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#research-teaching-collaboration">Research, teaching &amp; collaboration</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#arc-alkali-ne-rydberg-calculator">ARC (Alkali.ne Rydberg Calculator)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#atom-calculator">Atom calculator</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#researchx3d">ResearchX3D</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#roundtable">Roundtable</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#caroline">Caroline</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#interactive-publishing">Interactive Publishing</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#society">Society</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#carteevent">Carteevent</a></li>
+</ul>
+</li>
 </ul>
   </nav></div>
 
