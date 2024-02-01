@@ -1,4 +1,8 @@
-:og:description: Teaching resources. Interactive eBooks, Caroline framework for presentations, 3D and AR web platform for experimental setup description and more.
+:og:description: Teaching resources: interactive books EPUB3, Python framework for interactive presentations, 3D and AR web platform for experimental setup description and more.
+.. meta::
+   :description: Teaching resources: interactive books EPUB3, Python framework for interactive presentations, 3D and AR web platform for experimental setup description and more.
+   :keywords: interactive quantum optics, rydberg physics, teaching resources, roundtable seminars, interactive figures
+
 
 Teaching
 ========
@@ -10,7 +14,7 @@ and supervision at all levels of physics eduction (primary school -> highschool
 Selected materials
 ------------------
 
-An Interactive Guantum Optics
+An Interactive Quantum Optics
 *****************************
 
 .. image:: _static/an_interactive_guide_to_quantum_optics_cover.jpg

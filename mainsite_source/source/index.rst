@@ -1,3 +1,8 @@
+:og:description: AMO physics teaching resources, research papers, interactive books, software tools and web services for knowledge sharing authored by Nikola Šibalić.
+.. meta::
+   :description: AMO physics teaching resources, research papers, interactive books, software tools and web services for knowledge sharing authored by Nikola Šibalić.
+   :keywords: interactive quantum optics, rydberg physics, knowledge infrastructure, Nikola Šibalić
+
 
 Nikola Šibalić's web directory
 ==============================

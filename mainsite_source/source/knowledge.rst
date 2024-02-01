@@ -1,4 +1,8 @@
-:og:description: Knowledge infrastructure. Software and web services for sharing and interacting with academic knowledge.
+:og:description: Software and web services for sharing and interacting with academic knowledge.
+.. meta::
+   :description: Software and web services for sharing and interacting with academic knowledge.
+   :keywords: knowledge infrastructure, knowledge management, digital learning, interactive education, interactive figures, learning on distance, remote meetings
+
 
 .. raw:: html
 

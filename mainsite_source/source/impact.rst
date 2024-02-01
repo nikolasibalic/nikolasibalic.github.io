@@ -1,4 +1,8 @@
-:og:description: Collected publications, selected awards and metrics.
+:og:description: Collected selected awards and metrics on impact of the work.
+.. meta::
+   :description: Collected selected awards and metrics on impact of the work.
+   :keywords: impact, awards, grants, citations
+
 
 Impact
 ======

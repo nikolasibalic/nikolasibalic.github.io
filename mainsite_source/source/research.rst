@@ -1,6 +1,10 @@
+:og:description: Papers co-authored by Nikola Šibalić, with accessible summaries.
+.. meta::
+   :description: Papers co-authored by Nikola Šibalić, with accessible summaries.
+   :keywords: research papers, research topics
+
 Research 
 ========
-
 
 
 Non-equilibrium phase transitions

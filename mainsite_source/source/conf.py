@@ -55,11 +55,12 @@ extensions = [
     "sphinx_favicon",
     "sphinxext.opengraph",
     #"sphinx_panels",
+    "sphinx_sitemap",
 ]
 
+html_baseurl = "https://nikolasibalic.github.io"
 ogp_site_url = "https://nikolasibalic.github.io"
-ogp_description_length = "Nikola Šibalić's web directory. AMO physics teaching resources, research papers, interactive books, web services for knowledge sharing."
-ogp_image = "./_static/logo.png"
+ogp_image = "./_static/og_image.png"
 
 # This allows us to use ::: to denote directives, useful for admonitions
 myst_enable_extensions = ["colon_fence", "linkify", "substitution"]
@@ -68,6 +69,7 @@ myst_substitutions = {"rtd": "[Read the Docs](https://readthedocs.org/)"}
 
 # specifying the natural language populates some key tags
 language = "en"
+sitemap_url_scheme = "/{link}"
 
 nbsphinx_codecell_lexer = 'ipython3'
 
@@ -102,6 +104,7 @@ html_favicon = "./_static/ns.ico"
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+html_extra_path = ["robots.txt", "google72b967c36067bf3e.html"]
 
 html_css_files = [
     'fonts_overwrite.css',
@@ -134,6 +137,7 @@ html_theme_options = {
         }
     ],
     "navbar_align": "left",
+    "navigation_with_keys": False,
     "navigation_depth": 2,
     # "show_nav_level": 2,
     #"search_bar_position": "navbar",  # TODO: Deprecated - remove in future version
