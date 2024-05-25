@@ -1,4 +1,5 @@
 :og:description: Teaching resources: interactive books EPUB3, Python framework for interactive presentations, 3D and AR web platform for experimental setup description and more.
+
 .. meta::
    :description: Teaching resources: interactive books EPUB3, Python framework for interactive presentations, 3D and AR web platform for experimental setup description and more.
    :keywords: interactive quantum optics, rydberg physics, teaching resources, roundtable seminars, interactive figures
@@ -14,8 +15,8 @@ and supervision at all levels of physics eduction (primary school -> highschool
 Selected materials
 ------------------
 
-An Interactive Quantum Optics
-*****************************
+An Interactive Guide to Quantum Optics
+**************************************
 
 .. image:: _static/an_interactive_guide_to_quantum_optics_cover.jpg
    :width: 150
@@ -47,9 +48,15 @@ Additionally, try out projects below that support teaching (selected from `Knowl
 
 * Physics world `blogpost`_ and `article`_ about using interactive materials to enhance learning and improve discussion of ideas is available here.
 
+* `Interactive publishing toolset library`_ for making interactive figures and text. This includes also domain specific visualisations, in particular `new quantum state visualisations`_ .
+
 * `Roundtable`_ online table and whiteboard for meetings with collaborative feedback, supporting file sharing, collaborative annotations, equations, etc.
 
 * `Caroline`_ is a Python framework for creation of HTML-based presentations, with optional features that allow interaction with audience through quizzes and collaborative whiteboard sharing.
+
+.. _Interactive publishing toolset library: https://nikolasibalic.github.io/Interactive-Publishing/
+
+.. _new quantum state visualisations: https://nikolasibalic.github.io/Interactive-Publishing/ifigures_api/#quantum-state-visualisations
 
 .. _IOPP Bookstore : https://store.ioppublishing.org/page/detail/An-Interactive-Guide-to-Quantum-Optics/?k=9780750326261
 
@@ -101,3 +108,10 @@ stories and design tips.
 .. raw:: html 
 
     <iframe width="600" height="337" src="https://www.youtube-nocookie.com/embed/LZDBc406JmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+As an example, here is an explanation on Larent polarimeter usage from
+ResearchX3D:
+
+.. raw:: html 
+   
+    <iframe width='700' height='800' src='https://www.researchx3d.com/en/?o=12&s=12&e'></iframe>

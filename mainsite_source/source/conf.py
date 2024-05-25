@@ -56,6 +56,7 @@ extensions = [
     "sphinxext.opengraph",
     #"sphinx_panels",
     "sphinx_sitemap",
+    "sphinx_design"
 ]
 
 html_baseurl = "https://nikolasibalic.github.io"
