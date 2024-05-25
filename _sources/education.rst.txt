@@ -8,9 +8,11 @@
 Teaching
 ========
 
-I have been involved in teaching, course/competition creation, marking,
-and supervision at all levels of physics eduction (primary school -> highschool 
--> undergraduate -> postgraduate).
+I have been involved in teaching, course and competition creation, marking,
+and supervision at all levels of physics eduction (primary, highschool,
+undergraduate, postgraduate), at different points of my career, trying to reach
+what Emily Dickinson called beautifully "phosphorescence of thought", as opposed
+to just transmission of information.
 
 Selected materials
 ------------------
@@ -108,10 +110,3 @@ stories and design tips.
 .. raw:: html 
 
     <iframe width="600" height="337" src="https://www.youtube-nocookie.com/embed/LZDBc406JmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-As an example, here is an explanation on Larent polarimeter usage from
-ResearchX3D:
-
-.. raw:: html 
-   
-    <iframe width='700' height='800' src='https://www.researchx3d.com/en/?o=12&s=12&e'></iframe>
