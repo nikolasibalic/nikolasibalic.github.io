@@ -24,7 +24,7 @@ An Interactive Guide to Quantum Optics
    :width: 150
    :align: right
 
-`An Interactive Guide to Quantum Optics`_ (co-authored with C Stuart Adams, published by IOPP, 2024) is a primer on quantum optics for students and those wanting an introduction to the topic, with forty interactive figures to develop physics intuition. Historical and contemporary research context is provided, including interactive online literature graphs, as well as experiment models. This is an ideal text for final year undergraduate quantum optics students, and new graduate students in AMO physics, and researchers in physics and electrical/optical engineering. For those without institutional subscription to `IOP science`_, you can get ePUB directly from `IOPP Bookstore`_.
+`An Interactive Guide to Quantum Optics`_ (co-authored with C Stuart Adams, published by IOPP, 2024) is a primer on quantum optics for students and those wanting an introduction to the topic, with forty interactive figures to develop physics intuition. Historical and contemporary research context is provided, including interactive online literature graphs, as well as experiment models. This is an ideal text for final year undergraduate quantum optics students, and new graduate students in AMO physics, and researchers in physics and electrical/optical engineering. For those without institutional subscription to `IOP science`_, you can get ePUB as well as hard copy printed book directly from `IOPP Bookstore`_.
 
 Rydberg Physics
 ***************
