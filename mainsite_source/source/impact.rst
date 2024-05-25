@@ -23,7 +23,7 @@ Papers, citations and reviewing
 
 .. _(A. Einstein or William Bruce Cameron?) : https://quoteinvestigator.com/2010/05/26/everything-counts-einstein/
 
-.. _Citations metrics from Google Scholar. : https://scholar.google.com/citations?user=o9TNqmkAAAAJ&hl=fr&oi=ao
+.. _Citations metrics from Google Scholar. : https://scholar.google.com/citations?hl=fr&user=o9TNqmkAAAAJ&view_op=list_works&sortby=pubdate
 
 .. _Reviewer metrics from Publons. : https://publons.com/researcher/2309931/nikola-sibalic/peer-review/ 
 
