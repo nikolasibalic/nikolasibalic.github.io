@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Nikola Šibalić'
-copyright = '2024, Nikola Šibalić'
+copyright = '2025, Nikola Šibalić'
 author = 'Nikola Šibalić'
 
 # The full version, including alpha/beta/rc tags

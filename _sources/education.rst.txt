@@ -26,6 +26,14 @@ An Interactive Guide to Quantum Optics
 
 `An Interactive Guide to Quantum Optics`_ (co-authored with C Stuart Adams, published by IOPP, 2024) is a primer on quantum optics for students and those wanting an introduction to the topic, with forty interactive figures to develop physics intuition. Historical and contemporary research context is provided, including interactive online literature graphs, as well as experiment models. This is an ideal text for final year undergraduate quantum optics students, and new graduate students in AMO physics, and researchers in physics and electrical/optical engineering. For those without institutional subscription to `IOP science`_, you can get ePUB as well as hard copy printed book directly from `IOPP Bookstore`_.
 
+.. admonition:: Excerpt from the book review
+
+   "This compact guide to quantum optics stands out for its broad scope and innovative use of interactive figures to follow the evolution of quantum systems ... numerous physical insights make it an excellent tool for those seeking to transition from students to active contributors in the field of quantum optics."
+   — Michael Belsey. Read the Book Review in full at `Michael Belsley (04 Feb 2025): An interactive guide to quantum optics, Contemporary Physics, DOI: 10.1080/00107514.2025.2452494`_
+
+.. _`Michael Belsley (04 Feb 2025): An interactive guide to quantum optics, Contemporary Physics, DOI: 10.1080/00107514.2025.2452494` : https://doi.org/10.1080/00107514.2025.2452494
+
+
 Rydberg Physics
 ***************
 

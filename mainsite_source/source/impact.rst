@@ -17,7 +17,7 @@ of the works.
 Papers, citations and reviewing
 -------------------------------
 
-* `Citations metrics from Google Scholar.`_ (>1000 citations since 2016; 15 publications)
+* `Citations metrics from Google Scholar.`_ (>1300 citations since 2016; 15 publications)
 
 * `Reviewer metrics from Publons.`_  (peer reviewer for PRL, PRA, J.Phys. B, Optics Express, Applied Optics, Computer Physics Communications, Optics Letters, OSA Continuum, Journal of the Optical Society of America B, Physical Review Applied, Scientific Reports )
 
