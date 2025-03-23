@@ -41,7 +41,7 @@ Rydberg Physics
    :width: 150
    :align: right
 
-Free, interactive `introductory eBook to Rydberg physics`_ (co-authored with C Stuart Adams, published by IOPP, 2018) for advanced undergraduate and new postgraduates, covers introduction to highly excited Rydberg states in atoms and solid state, and their applications in quantum optics, metrology and quantum simulation.
+Open-access, interactive `introductory eBook to Rydberg physics`_ (co-authored with C Stuart Adams, published by IOPP, 2018) for advanced undergraduate and new postgraduates, covers introduction to highly excited Rydberg states in atoms and solid state, and their applications in quantum optics, metrology and quantum simulation.
 
 
 
