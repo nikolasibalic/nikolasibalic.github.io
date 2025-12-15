@@ -14,6 +14,12 @@ undergraduate, postgraduate), at different points of my career, trying to reach
 what Emily Dickinson called beautifully "phosphorescence of thought", as opposed
 to just transmission of information.
 
+.. seealso::
+   
+   Video introduction in "From eBooks to Cloud Qubits: A New Infrastructure for Visual, Interactive, and Hands-On Quantum Education"
+
+   ..  youtube:: hmV1JWdooKY
+
 Selected materials
 ------------------
 
@@ -33,6 +39,11 @@ An Interactive Guide to Quantum Optics
 
 .. _`Michael Belsley (04 Feb 2025): An interactive guide to quantum optics, Contemporary Physics, DOI: 10.1080/00107514.2025.2452494` : https://doi.org/10.1080/00107514.2025.2452494
 
+.. seealso::
+   
+   Interview about the ideas behind the book with Io Stefanidou from IOP Publishing
+
+   ..  youtube:: 9k5nbzNMNGc
 
 Rydberg Physics
 ***************
@@ -88,6 +99,15 @@ Additionally, try out projects below that support teaching (selected from `Knowl
 
 .. _Caroline : https://github.com/nikolasibalic/Caroline
 
+.. seealso::
+
+   "Maxwell's equations: a brief introduction to electrodynamics" demonstrating
+   use of many of the tools above is available below. It packs in 20 minutes 
+   ntroduction to Maxwell equations, historical background, derivation and
+   their wide importance to the present moment.
+
+   ..  youtube:: KFE9OTBj494
+
 Round table meetings 
 --------------------
 
@@ -115,6 +135,8 @@ stories and design tips.
 
 .. _ResearchX3D: http://www.researchx3d.com
 
-.. raw:: html 
+..  youtube:: LZDBc406JmY
 
-    <iframe width="600" height="337" src="https://www.youtube-nocookie.com/embed/LZDBc406JmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+.. .. raw:: html 
+
+..     <iframe width="600" height="337" src="https://www.youtube-nocookie.com/embed/LZDBc406JmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
